@@ -1,0 +1,24 @@
+[
+    {
+        "category":"drink",
+        "price": 2200
+    },
+    {
+        "category":"salat",
+        "price": 5000
+    },
+    {
+        "category":"salat with",
+        "price": 6000
+    },
+    {
+        "category":"water",
+        "price": 2000
+    },
+    {
+        "category":"BQ",
+        "price": 10000
+    }
+
+
+]

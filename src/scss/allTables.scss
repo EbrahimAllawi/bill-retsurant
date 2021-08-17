@@ -1,0 +1,88 @@
+@import './vars.scss';
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+}
+.container-tables {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-display {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    height: 500px;
+    overflow: auto;
+}
+.tabs-container {
+    // position: absolute;
+    // bottom: 0;
+    // left: 0;
+    // right: 0;
+    width: 600px;
+    overflow: auto;
+    margin: auto;
+    margin-top: 10px;
+}
+.tabs {
+    display: inline-flex;
+}
+.tab {
+    width: 50px;
+    cursor: pointer;
+    text-align: center;
+}
+.tab:hover {
+    background-color: $second;
+    border-radius: 7px;
+}
+.activeTab {
+    // border: 1px solid #555;
+    border-radius: 7px;
+    zoom: 1.1;
+    background-color: $second;
+}
+// Bill
+table, th, td {
+    white-space: nowrap;
+    margin-top: 10px;
+    border: 1px solid black;
+    // padding: 20px;
+    // text-align: center;
+    padding: 5px;
+}
+
+td {
+    width: 50px;
+}
+.name-table {
+    // text-align: center;
+}
+.container-bill {
+    // position: absolute;
+}
+.total-bill {
+    border: 1px solid;
+    margin-top: 35px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+@import './items.scss'

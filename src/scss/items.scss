@@ -1,0 +1,54 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+}
+
+.container-items {
+
+    height: 100%;
+    overflow: auto;
+}
+.container-items .item {
+    height: 28px;
+    display: flex;
+    border: 1px solid;
+    align-items: center;
+    margin: 5px 0;
+}
+.item .name-item {
+    width: 100%;
+}
+.container-items .set-check-all {
+    position: relative;
+    width: 100%;
+}
+.set-check-all .set {
+    position: absolute;
+}
+.set-check-all .check-all {
+    left: 0;
+}
+.set-check-all .uncheck-all {
+    right: 0;
+}
+.container-items .items {
+    position: relative;
+    top: 25px;
+    
+}
